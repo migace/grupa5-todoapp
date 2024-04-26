@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input {
+  display: flex;
+  gap: 24px;
+}
+
+.input input {
+  flex: 1;
+  height: 40px;
+  padding: 0 16px;
+}
+
+.input button {
+  padding: 0 16px;
+}
+
+.todo-list {
+  padding: 50px 0;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
+.todo-item button {
+  background: transparent;
+  border: 0;
+  font-size: 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  border-color: #666;
+}
+
+.todo-item.completed {
+  background-color: rgb(140, 202, 48);
+}
